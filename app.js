@@ -1,9 +1,12 @@
 const images = ["imagens/img1.png", "imagens/img2.png", "imagens/img3.png"];
 let index = 0;
 
+
+
 function nextImage() {
     index = (index + 1) % images.length;
     document.getElementById("carouselImage").src = images[index];
+
 }
 
 function prevImage() {
