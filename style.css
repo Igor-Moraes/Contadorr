@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.carousel {
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background: #ffd1dc;
+}
+
+.contador {
+    margin-top: 30px;
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#tempo {
+    font-size: 20px;
+    font-weight: bold;
+}
